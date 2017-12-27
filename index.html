@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+  <title>Nuri Amari</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1"></meta>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <script src="app.js"></script>
+  <script src="https://use.fontawesome.com/dfc90148e1.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+  <i class="fa fa-bars toggle_menu opacity_one"></i>
+  <div class="sidebar_menu hide_menu">
+    <i class="fa fa-times"></i>
+    <ul>
+      <li id="home-nav">Home</li>
+      <li id="about-nav">About</li>
+      <li id="projects-nav">Projects</li>
+      <li id="resume-nav">Contact & Resume</li>
+    </ul>
+  </div>
+  <header>
+    <div id="name-container">
+      <h1>Nuri Amari</h1>
+      <h4>UW Student & Web Developer</h4>
+    </div>
+    <div id="down-arrow">
+      <span class="fa fa-arrow-down"></span>
+    </div>
+  </header>
+  <div id="about">
+    <div id="img-container"><img src="img/pro.jpg"></div>
+    <div class="content">
+      <h2>About Me</h2>
+      <p>Hi! I'm Nuri Amari and this is my website. I am 18 years old, love programming, old crime movies, subtitles, esports and type fonts. I'm currently in my second term, studying computer science at the University of Waterloo. This website serves to showcase my interests, abilities and recent work.</p>
+    </div>
+  </div>
+  <div id="background" class="parallax">
+    <div id="projects">
+      <h2>Projects</h2>
+      <ul id="projects-list">
+        <li class="no-style">
+          <img src="img/painter-palette.png" width="20px"><h3>Sodoku Solver</h3>
+          <p>Online tool providing users with solutions to any 9x9 sodoku square. Users enter their partially solved sodoku square and uses
+             a recursive backtracking algorithm to compute the solution.</p>
+          <h4>Technologies Used:</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>jQuery</li>
+          </ul>
+          <a target="_blank" href="sodoku-solver/index.html"><span class="hvr-fade">Check it out</span></a>
+        </li>
+        <li class="no-style">
+          <img src="img/painter-palette.png" width="20px"><h3>Flat Colours</h3>
+          <p>Flat colour is a site desgined to make colour selection easier for graphic designers. The site displays a series of attractive colours organized into categories. If the user would like to use a colour, simply click on it and the corresponding hexidecimal code will be automaticaly copied to the clipboard.</p>
+          <h4>Technologies Used:</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>jQuery</li>
+            <li>clipboard.js jQuery plug in</li>
+          </ul>
+          <a target="_blank" href="flat_colours/index.html"><span class="hvr-fade">Check it out</span></a>
+        </li>
+        <li class="no-style">
+          <img src="img/snake.png" width="20px"><h3>Snake.io</h3>
+          <p>Snake.io is an online multiplayer version of the classic arcade game snake. Players can control their snake, eat snacks and run into one another with the goal of growing the largest snake. Before joining the server, players can input their name and watch as it is displayed on a live leaderboard. </p>
+          <h4>Technologies Used:</h4>
+          <ul>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>Socket.io</li>
+            <li>Javascript</li>
+            <li>HTML5 & CSS3</li>
+          </ul>
+          <a target="_blank" href="https://github.com/NuriAmari/Snake.io"><span class="hvr-fade">Check it out</span></a>
+        </li>
+        <li class="no-style">
+          <img src="img/bmo.png" width="20px"><h3>BMO myApp</h3>
+          <p>The BMO myBank app was created for a business competition and is a prototype serving to demonstrate necessary improvements in the current BMO app. The app is capable of using an NFC enabled android device to read and write to an NFC data chip. These capabilities were used to create interactive posters that would launch the app and display a custom message when the user tapped their phone to a poster. App also displayed conventional information (balance, settings, contact etc).</p>
+          <h4>Technologies Used:</h4>
+          <ul>
+            <li>Java</li>
+            <li>Android Studio</li>
+            <li>NFC Transfer API</li>
+            <li>XML</li>
+          </ul>
+          <a target="_blank" href="https://github.com/NuriAmari/BMOApp"><span class="hvr-fade">Check it out</span></a>
+        </li>
+        <li class="no-style">
+          <img src="img/sword.png" width="20px"><h3>Little RPG Adventure</h3>
+          <p>Little RPG Adventure is a small rpg game with a tiled map, multiple worlds and several different enemies to fight and level up against. The game has been played by over 1000 unique players on Kongregate.com.</p>
+          <h4>Technologies Used:</h4>
+          <ul>
+            <li>ActionScript 3</li>
+            <li>Adobe Animate</li>
+            <li>Adobe Photoshop</li>
+          </ul>
+          <a target="_blank" href="http://www.kongregate.com/games/NuriAmari/little-rpg-adventure"><span class="hvr-fade">Check it out</span></a>
+        </li>
+        <li class="no-style">
+          <img src="img/ping-pong.png" width="20px"><h3>Pong<sup>2</sup></h3>
+          <p>Pong<sup>2</sup>is a redesigned pong game featuring a new style, sliding animations and colour customization options. The game has been played by over 220 unique users on Kongregate.com.</p>
+          <h4>Technologies Used:</h4>
+          <ul>
+            <li>ActionScript 3</li>
+            <li>Adobe Animate</li>
+          </ul>
+          <a target="_blank" href="http://www.kongregate.com/games/NuriAmari/pong"><span class="hvr-fade">Check it out</span></a>
+        </li>
+        <li class="no-style">
+          <img src="img/route.png" width="20px"><h3>Memory Path</h3>
+          <p>Memory Path is a simple game designed to challenge the user's memory. The user is shown a path and given 10 seconds to memorize it. Once the time has passed, the user must guide a ball along the same path. Mistakes lose the player lives and eventually force a complete restart.</p>
+          <h4>Technologies Used:</h4>
+          <ul>
+            <li>ActionScript 3</li>
+            <li>Adobe Animate</li>
+          </ul>
+          <a target="_blank" href="http://www.kongregate.com/games/NuriAmari/memory-path"><span id="last" class="hvr-fade">Check it out</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <div>
+      <div id="contact">
+        <h2>Contact /</h2>
+        <ul>
+          <li><img src="img/close-envelope.png" width="25px"><a href="mail-to:nfamari@edu.uwaterloo.ca">nfamari@edu.uwaterloo.ca</a></li>
+          <li><img src="img/github-logo.png" width="25px"><a href="https://github.com/NuriAmari">github.com/NuriAmari</a></li>
+        </ul>
+      </div>
+      <div id="resume">
+        <a href="Resume.pdf" target="_blank"><span><i class="fa fa-cloud-download" aria-hidden="true"></i>  Resume</span></a>
+      </div>
+    </div>
+  </footer>
+</body>
