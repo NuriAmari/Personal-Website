@@ -1,0 +1,423 @@
+* {
+
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+	font-family: "Roboto", sans-serif, Arial;
+}
+
+
+
+
+#nav {
+
+	width: 100%;
+}
+
+#nav img {
+
+	display: block;
+	margin: 0 auto;
+}
+
+header {
+
+	background-color: #d3d3d3;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+header ul {
+
+	list-style-type: none;
+	background-color: #939393;
+	color: white;
+}
+
+header ul li {
+
+	text-align: center;
+	padding: 5px 0;
+	border-bottom: #f1f1f1 solid 1px;
+	margin: 0 5px;
+	cursor: pointer;
+}	
+
+.wrapper {
+
+	width: 70%;
+	margin: 100px auto 0;
+}
+
+.colour-heading {
+
+	padding-bottom: 20px;
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: "Roboto Slab", "Roboto", sans-serif, Arial;
+}
+
+.colour-container {
+
+	padding-bottom: 20px;
+	display: block;
+	overflow: auto;
+}
+
+.row {
+
+	display: block;
+	width: 100%;
+}
+
+.row div {
+
+	display: inline-block;
+	white-space: nowrap;
+	height: 150px;
+	width: 20%;
+	float: right;
+	line-height: 150px;
+	text-align: center;
+	font: "Roboto", sans-serif, Arial;
+	font-weight: lighter;
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+
+
+
+/* COLOURS: */
+
+/* BLUE */
+
+#b1 {
+
+	background-color: #446CB3;
+}
+
+#b2 {
+
+	background-color: #E4F1FE;
+}
+
+#b3 {
+
+	background-color: #4183D7;
+}
+
+#b4 {
+
+	background-color: #59ABE3;
+}
+
+#b5 {
+
+	background-color: #81CFE0;
+}
+
+#b6 {
+
+	background-color: #52B3D9;
+}
+
+#b7 {
+
+	background-color: #C5EFF7;
+}
+
+#b8 {
+
+	background-color: #22A7F0;
+}
+
+#b9 {
+
+	background-color: #3498D8;
+}
+
+#b10 {
+
+	background-color: #2C3E50;
+}
+
+
+/* RED */
+
+#r1 {
+
+	background-color: #EC644B;
+}
+
+#r2 {
+
+	background-color: #D24D57;
+}
+
+#r3 {
+
+	background-color: #F22613;
+}
+
+#r4 {
+
+	background-color: #D91E18;
+}
+
+#r5 {
+
+	background-color: #96281B;
+}
+
+#r6 {
+
+	background-color: #EF4836;
+}
+
+#r7 {
+
+	background-color: #D64541;
+}
+
+#r8 {
+
+	background-color: #C0392B;
+}
+
+#r9 {
+
+	background-color: #CF000F;
+}
+
+#r10 {
+
+	background-color: #E74C3C;
+}
+
+/* GREEN */
+
+#g1 {
+
+	background-color: #4ECDC4;
+}
+
+#g2 {
+
+	background-color: #A2DED0;
+}
+
+#g3 {
+
+	background-color: #87D37C;
+}
+
+#g4 {
+
+	background-color: #90C695;
+}
+
+#g5 {
+
+	background-color: #26A65B;
+}
+
+#g6 {
+
+	background-color: #03C9A9;
+}
+
+#g7 {
+
+	background-color: #68C3A3;
+}
+
+#g8 {
+
+	background-color: #65C6BB;
+}
+
+#g9 {
+
+	background-color: #1BBC9B;
+}
+
+#g10 {
+
+	background-color: #1BA39C;
+}
+
+/* BLUE */
+
+#y1 {
+
+	background-color: #E9D460;
+}
+
+#y2 {
+
+	background-color: #FDE3A7;
+}
+
+#y3 {
+
+	background-color: #F89406;
+}
+
+#y4 {
+
+	background-color: #EB9532;
+}
+
+#y5 {
+
+	background-color: #E87E04;
+}
+
+#y6 {
+
+	background-color: #F4B350;
+}
+
+#y7 {
+
+	background-color: #F2784B;
+}
+
+#y8 {
+
+	background-color: #EB974E;
+}
+
+#y9 {
+
+	background-color: #F5AB35;
+}
+
+#y10 {
+
+	background-color: #D35400;
+}
+
+/* GREY */
+
+#e1 {
+
+	background-color: #ECECEC;
+}
+
+#e2 {
+
+	background-color: #6C7A89;
+}
+
+#e3 {
+
+	background-color: #D2D7D3;
+}
+
+#e4 {
+
+	background-color: #EEE;
+}
+
+#e5 {
+
+	background-color: #BDC3C7;
+}
+
+#e6 {
+
+	background-color: #ECF0F1;
+}
+
+#e7 {
+
+	background-color: #95A5A6;
+}
+
+#e8 {
+
+	background-color: #DADFE1;
+}
+
+#e9 {
+
+	background-color: #ABB7B7;
+}
+
+#e10 {
+
+	background-color: #F2F1EF;
+}
+
+footer {
+
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: #d3d3d3;
+	font-family: sans-serif;
+}
+
+/* Navigation */
+
+@media (min-width: 900px) {
+
+	header {
+
+		height: 60px;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		margin-bottom: 50px;
+	}
+
+	header ul {
+
+		display: inline-block;
+		float: right;
+		height: inherit;
+		background-color: transparent;
+		color: #3f3f3f;
+	}
+
+	header ul li {
+
+		display: inline-block;
+		padding: 0 15px;
+		line-height: 60px;
+		text-align: center;
+		border: none;
+		margin: 0;
+	}
+
+	header ul li:hover {
+
+		background-color: #bdbdbd;
+		color: rgb(255, 82, 82);
+	}
+
+	header ul li a {
+
+		style="cursor:pointer;
+	}
+
+	#nav img {
+
+		display: inline-block;
+	}
+
+	#nav {
+
+		position: relative;
+		height: inherit;
+		width: 70%;
+		margin: 0 auto;
+	}
+}
+
